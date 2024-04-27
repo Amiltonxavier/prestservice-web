@@ -47,19 +47,30 @@
       </nav>
     </div>
 
-    <section class="w-full py-12 min-h-screen">
+    <section
+      class="w-full py-12 min-h-screen"
+      style="
+        background-image: url('./assets/bg1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
       <div class="container mx-auto px-4 md:px-6">
         <div
           class="grid gap-6 lg:grid-cols-[1fr_300px] lg:gap-12 xl:grid-cols-[1fr_600px] my-auto"
         >
-          <div class="flex flex-col justify-center items-center space-y-4">
+          <div
+            class="flex flex-col justify-center my-auto items-center space-y-4"
+          >
             <div class="space-y-6">
-              <h1 class="text- font-bold tracking-tighter text-2xl sm:text-4xl">
+              <h1
+                class="text- font-bold text-white tracking-tighter text-2xl sm:text-4xl"
+              >
                 Proteja seus bens com nossos serviços<br />
                 de alarmes eserviços
-                <span class="text-blue-700 underline">GPS</span>.
+                <span class="text-blue-800 underline">GPS</span>.
               </h1>
-              <p class="max-w-[600px] text-gray-600 md:text-xl">
+              <p class="max-w-[600px] text-white md:text-xl">
                 Oferecemos soluções personalizadas e de alta qualidade para
                 <br />
                 garantir que você esteja sempre no caminho certo
@@ -91,16 +102,16 @@
               width="50"
               height="50"
               alt="Hero"
-              class="mx-auto sm:aspect-video w-full sm:rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square"
+              class="mx-auto sm:aspect-video w-full sm:rounded-xl object-fill sm:w-full lg:order-last lg:aspect-square"
             />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="w-full py-6 md:py-12 lg:py-16">
+    <section class="w-full py-6 md:py-12 lg:py-16 min-h-screen my-auto">
       <div class="container mx-auto px-4 md:px-6">
-        <div class="grid items-center gap-6 lg:grid-cols-[500px_1fr]">
+        <div class="grid items-center gap-6 sm:grid-cols-[500px_1fr]">
           <div class="flex flex-col justify-between space-y-4">
             <div class="space-y-2">
               <h4
@@ -122,12 +133,11 @@
               </p>
             </div>
           </div>
+
           <img
             src="./assets/about.jpeg"
-            width="550"
-            height="280"
             alt="imagem de um dos elementos da prestService"
-            class="mx-auto aspect-video overflow-hidden rounded-xl w-full object-cover sm:w-full lg:order-first"
+            class="mx-auto aspect-video overflow-hidden rounded-xl w-full object-cover object-top sm:w-full lg:order-first"
           />
         </div>
       </div>
@@ -197,9 +207,7 @@
                 </li>
               </ul>
             </div>
-            <div
-              class="mx-auto flex justify-center items-center p-4 my-auto"
-            >
+            <div class="mx-auto flex justify-center items-center p-4 my-auto">
               <a
                 href="https://wa.me/244944218963"
                 target="_blank"
@@ -270,13 +278,17 @@
               </a>
             </div>
           </div>
-          
+
           <div
             class="rounded-lg border-2 bg-card text-card-foreground shadow-sm bg-white"
             data-v0-t="card"
           >
             <div class="flex flex-col space-y-1.5 p-6 pb-4">
-              <div class="font-bold text-gradient-to-r from-green-400 to-blue-500">Pacote <span class="text-zinc-800">Wireless</span></div>
+              <div
+                class="font-bold text-gradient-to-r from-green-400 to-blue-500"
+              >
+                Pacote <span class="text-zinc-800">Wireless</span>
+              </div>
               <span class="text-xl font-semibold">
                 130.<small class="text-zinc-900">000Kz</small>
               </span>
@@ -327,22 +339,24 @@
                 </li>
               </ul>
             </div>
-            <div class="mx-auto flex justify-center items-center p-4">
+            <div class="mx-auto flex justify-center items-center p-4 my-auto">
               <a
                 href="https://wa.me/244944218963"
                 target="_blank"
-                class="bg-gradient-to-r from-green-400 to-blue-500 px-2 w-full justify-center py-2 text-white hover:bg-gradient-to-r from-green-400 to-blue-500/100 flex gap-2 items-center rounded"
+                class="bg-gradient-to-r from-green-400 to-blue-500 px-2 w-full justify-center py-2 text-white hover:bg-blue-800 flex gap-2 items-center rounded"
               >
                 Adira já
               </a>
             </div>
           </div>
           <div
-            class="rounded-lg  bg-card text-card-foreground shadow-sm bg-white"
+            class="rounded-lg bg-card text-card-foreground shadow-sm bg-white"
             data-v0-t="card"
           >
             <div class="flex flex-col space-y-1.5 p-6 pb-4">
-              <div class="font-bold">Pacote <span class="text-zinc-800">Pro max</span></div>
+              <div class="font-bold">
+                Pacote <span class="text-zinc-800">Pro max</span>
+              </div>
               <div class="">
                 <span class="text-xl font-semibold text-gray-800">
                   150.<small>000Kz</small>
@@ -932,7 +946,6 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-                Adera já
               </a>
             </li>
           </ul>
